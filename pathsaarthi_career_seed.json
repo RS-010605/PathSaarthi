@@ -1,0 +1,4943 @@
+{
+  "README": {
+    "title": "PathSaarthi Gujarat — MongoDB Career Seed Dataset",
+    "countCareers": 26,
+    "collections": [
+      "careers",
+      "qualifications",
+      "skills",
+      "roadmapSteps",
+      "resources"
+    ],
+    "important": "Starter dataset for development only. Career demand labels are not live labour-market rankings. Qualification routes are general descriptions and MUST be checked against official sources before publishing. YouTube links are search links, not endorsements or reviewed videos.",
+    "suggestedUse": "Import into a development MongoDB database, review each document, add source records/URLs and verification dates, then change status to published only after human review.",
+    "skillsNote": "Career-specific skill names, descriptions, and practice projects are populated for all 26 careers. Content is a starter draft and should be reviewed by subject experts before publication."
+  },
+  "careers": [
+    {
+      "careerId": "software-developer",
+      "name": "Software Developer",
+      "industry": "Technology",
+      "description": "Designs, builds, tests, and maintains software applications.",
+      "workResponsibilities": [
+        "Build web/mobile/backend applications",
+        "debug code",
+        "collaborate using Git."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "data-analyst",
+      "name": "Data Analyst",
+      "industry": "Data & Analytics",
+      "description": "Turns raw data into reports, dashboards, and business insights.",
+      "workResponsibilities": [
+        "Clean datasets",
+        "use spreadsheets, SQL, visualization tools, and basic statistics."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "ai-ml-engineer",
+      "name": "AI/ML Engineer",
+      "industry": "AI & Data",
+      "description": "Builds and deploys machine-learning systems and AI-powered features.",
+      "workResponsibilities": [
+        "Python, statistics, linear algebra, data preparation, model evaluation, APIs, and deployment."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "cybersecurity-analyst",
+      "name": "Cybersecurity Analyst",
+      "industry": "Cybersecurity",
+      "description": "Monitors systems, investigates security alerts, and helps reduce cyber risk.",
+      "workResponsibilities": [
+        "Networking, Linux, operating systems, scripting, log analysis, incident response, and security fundamentals."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "cloud-devops-engineer",
+      "name": "Cloud / DevOps Engineer",
+      "industry": "Cloud & Infrastructure",
+      "description": "Automates deployment and operates reliable cloud infrastructure.",
+      "workResponsibilities": [
+        "Linux, networking, Git, scripting, CI/CD, containers, cloud basics, monitoring, and infrastructure as code."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "ui-ux-designer",
+      "name": "UI/UX Designer",
+      "industry": "Design",
+      "description": "Researches user needs and designs usable digital products.",
+      "workResponsibilities": [
+        "User research, wireframes, interaction design, prototyping, accessibility, visual design, and portfolio case studies."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "digital-marketing-specialist",
+      "name": "Digital Marketing Specialist",
+      "industry": "Marketing",
+      "description": "Plans and measures digital campaigns across search, social, content, and email.",
+      "workResponsibilities": [
+        "Content strategy, SEO, analytics, campaign measurement, copywriting, and platform tools."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "chartered-accountant",
+      "name": "Chartered Accountant (CA)",
+      "industry": "Finance & Accounting",
+      "description": "Works in audit, accounting, taxation, financial reporting, and advisory.",
+      "workResponsibilities": [
+        "Accounting, taxation, audit, financial analysis, ethics, Excel, and communication."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "financial-analyst",
+      "name": "Financial Analyst",
+      "industry": "Finance & Accounting",
+      "description": "Evaluates financial performance, budgets, forecasts, and investment/business decisions.",
+      "workResponsibilities": [
+        "Accounting, Excel, financial modelling, valuation basics, data analysis, and presentation."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "business-analyst",
+      "name": "Business Analyst",
+      "industry": "Business & Product",
+      "description": "Translates business problems into requirements, processes, and measurable solutions.",
+      "workResponsibilities": [
+        "Requirements gathering, process mapping, SQL basics, spreadsheets, documentation, and stakeholder communication."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "product-manager",
+      "name": "Product Manager",
+      "industry": "Product & Technology",
+      "description": "Defines product problems, prioritizes work, and coordinates teams to deliver user value.",
+      "workResponsibilities": [
+        "User research, prioritization, product metrics, communication, analytical thinking, and delivery methods."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "doctor",
+      "name": "Doctor (MBBS route)",
+      "industry": "Healthcare",
+      "description": "Diagnoses and treats patients within licensed medical practice.",
+      "workResponsibilities": [
+        "Biology and chemistry foundations, clinical reasoning, communication, ethics, and patient care."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "nurse",
+      "name": "Registered Nurse",
+      "industry": "Healthcare",
+      "description": "Provides patient care, monitors health, administers treatment, and coordinates with clinical teams.",
+      "workResponsibilities": [
+        "Anatomy, patient care, clinical procedures, communication, documentation, and ethics."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "pharmacist",
+      "name": "Pharmacist",
+      "industry": "Healthcare",
+      "description": "Supports safe medicine use, dispensing, and pharmaceutical services.",
+      "workResponsibilities": [
+        "Pharmacology, dosage calculations, medicine safety, communication, and recordkeeping."
+      ],
+      "demandSignal": "Medium",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "psychologist",
+      "name": "Psychologist",
+      "industry": "Healthcare & Social Sciences",
+      "description": "Assesses behaviour and supports mental health or research within professional scope.",
+      "workResponsibilities": [
+        "Psychology, research methods, statistics, communication, ethics, and supervised practice."
+      ],
+      "demandSignal": "Medium",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "lawyer",
+      "name": "Lawyer / Advocate",
+      "industry": "Law & Public Service",
+      "description": "Advises clients, researches law, drafts documents, and represents clients where authorized.",
+      "workResponsibilities": [
+        "Legal research, writing, reasoning, negotiation, ethics, and public speaking."
+      ],
+      "demandSignal": "Medium",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "teacher",
+      "name": "School Teacher",
+      "industry": "Education",
+      "description": "Plans lessons, teaches students, assesses learning, and supports development.",
+      "workResponsibilities": [
+        "Subject knowledge, pedagogy, classroom management, assessment, communication, and inclusion."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "civil-services-officer",
+      "name": "Civil Services Officer",
+      "industry": "Government & Public Service",
+      "description": "Performs administrative and public-service responsibilities through competitive recruitment.",
+      "workResponsibilities": [
+        "General studies, current affairs, reasoning, writing, analytical thinking, and disciplined preparation."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "police-officer",
+      "name": "Police Officer",
+      "industry": "Government & Public Service",
+      "description": "Maintains public safety, investigates offences, and enforces applicable law.",
+      "workResponsibilities": [
+        "Physical fitness, law and procedure, communication, judgement, and report writing."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "electrician",
+      "name": "Electrician / Electrical Technician",
+      "industry": "Skilled Trades",
+      "description": "Installs, maintains, and troubleshoots electrical systems safely.",
+      "workResponsibilities": [
+        "Electrical fundamentals, wiring, diagrams, measurement, fault diagnosis, and safety procedures."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "solar-technician",
+      "name": "Solar PV Technician",
+      "industry": "Green Energy & Skilled Trades",
+      "description": "Installs, inspects, and maintains solar photovoltaic systems.",
+      "workResponsibilities": [
+        "Electrical safety, PV components, installation, testing, maintenance, and site practices."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "civil-engineer",
+      "name": "Civil Engineer",
+      "industry": "Engineering & Infrastructure",
+      "description": "Plans, designs, supervises, and maintains buildings and infrastructure.",
+      "workResponsibilities": [
+        "Mathematics, mechanics, CAD/BIM tools, materials, surveying, project management, and safety."
+      ],
+      "demandSignal": "Medium",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "mechanical-engineer",
+      "name": "Mechanical Engineer",
+      "industry": "Engineering & Manufacturing",
+      "description": "Designs, analyses, tests, or maintains mechanical systems and products.",
+      "workResponsibilities": [
+        "Mechanics, CAD, manufacturing, materials, testing, and problem-solving."
+      ],
+      "demandSignal": "Medium",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "graphic-designer",
+      "name": "Graphic Designer",
+      "industry": "Creative Industries",
+      "description": "Creates visual communication for brands, digital media, and print.",
+      "workResponsibilities": [
+        "Typography, layout, colour, design software, brand systems, and portfolio presentation."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "video-editor",
+      "name": "Video Editor / Motion Designer",
+      "industry": "Creative Industries",
+      "description": "Edits video and creates motion graphics for digital and broadcast content.",
+      "workResponsibilities": [
+        "Editing, pacing, audio, colour, motion graphics, storytelling, and file workflows."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    },
+    {
+      "careerId": "entrepreneur",
+      "name": "Entrepreneur / Small Business Founder",
+      "industry": "Business & Entrepreneurship",
+      "description": "Identifies a customer problem and builds a sustainable business around a solution.",
+      "workResponsibilities": [
+        "Customer discovery, sales, finance, operations, communication, and experimentation."
+      ],
+      "demandSignal": "High",
+      "demandLabelNote": "Illustrative prioritization for this starter dataset, not a measured ranking or employment guarantee.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true,
+      "createdBy": "seed",
+      "version": 1
+    }
+  ],
+  "qualifications": [
+    {
+      "qualificationId": "software-developer-education-route",
+      "careerId": "software-developer",
+      "summary": "Degree routes include B.Tech/BE CSE/IT, BCA, B.Sc. CS/IT, or relevant diploma/self-learning routes. Specific roles and employers set their own criteria.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "data-analyst-education-route",
+      "careerId": "data-analyst",
+      "summary": "Common routes include B.Sc. Statistics/Mathematics/CS, BCA, B.Com/BBA with analytics skills, or engineering. Requirements vary by employer.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "ai-ml-engineer-education-route",
+      "careerId": "ai-ml-engineer",
+      "summary": "Common routes include B.Tech/BE, B.Sc. CS/Math/Statistics, MCA, or related postgraduate study. Strong mathematics and programming are useful.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "cybersecurity-analyst-education-route",
+      "careerId": "cybersecurity-analyst",
+      "summary": "Common routes include B.Tech/BE, BCA/B.Sc. CS/IT, diploma, or other IT routes plus practical labs. Role requirements vary.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "cloud-devops-engineer-education-route",
+      "careerId": "cloud-devops-engineer",
+      "summary": "Common routes include computer science/IT degrees or equivalent IT experience and practical projects.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "ui-ux-designer-education-route",
+      "careerId": "ui-ux-designer",
+      "summary": "Routes include design degrees/diplomas, HCI, visual communication, or portfolio-led learning. Employers differ in qualification expectations.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "digital-marketing-specialist-education-route",
+      "careerId": "digital-marketing-specialist",
+      "summary": "Routes include BBA/B.Com/BA/marketing degrees or practical training and demonstrable campaign work.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "chartered-accountant-education-route",
+      "careerId": "chartered-accountant",
+      "summary": "In India, follow the current ICAI CA course route and official eligibility/exam rules. Verify the latest scheme directly with ICAI.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "financial-analyst-education-route",
+      "careerId": "financial-analyst",
+      "summary": "Common routes include B.Com, BBA Finance, economics, statistics, or finance-related degrees. Some roles require postgraduate study or credentials.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "business-analyst-education-route",
+      "careerId": "business-analyst",
+      "summary": "Routes include BBA/B.Com/BCA/engineering/economics and related degrees; practical projects and domain knowledge matter.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "product-manager-education-route",
+      "careerId": "product-manager",
+      "summary": "There is no single required degree. Relevant technical/business education plus product experience or projects can help.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "doctor-education-route",
+      "careerId": "doctor",
+      "summary": "In India, MBBS admission generally requires meeting current NEET-UG and regulatory eligibility requirements. Verify official NTA/NMC notices.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "nurse-education-route",
+      "careerId": "nurse",
+      "summary": "Complete a recognized nursing qualification such as an approved B.Sc. Nursing or GNM route and meet applicable registration rules.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "pharmacist-education-route",
+      "careerId": "pharmacist",
+      "summary": "Common routes include D.Pharm or B.Pharm from an appropriately approved institution, with registration requirements checked with the relevant pharmacy council.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "psychologist-education-route",
+      "careerId": "psychologist",
+      "summary": "Requirements depend on the intended role and specialization. Clinical practice has specific regulatory and qualification requirements; verify current official rules.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "lawyer-education-route",
+      "careerId": "lawyer",
+      "summary": "Common routes include a 5-year integrated law degree after Class 12 or a 3-year LL.B. after graduation; check current BCI rules and enrolment requirements.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "teacher-education-route",
+      "careerId": "teacher",
+      "summary": "Requirements depend on school level and role; routes may include D.El.Ed/B.El.Ed/B.Ed and applicable TET/CTET or state requirements.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "civil-services-officer-education-route",
+      "careerId": "civil-services-officer",
+      "summary": "For UPSC Civil Services, a recognized bachelor's degree and current exam eligibility rules apply. Other government posts have separate criteria.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "police-officer-education-route",
+      "careerId": "police-officer",
+      "summary": "Recruitment routes, education, physical standards, and age criteria differ by post and state; check the official recruitment notification.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "electrician-education-route",
+      "careerId": "electrician",
+      "summary": "Routes include ITI Electrician and recognized apprenticeship/training pathways. Licensing and work rules vary by jurisdiction.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "solar-technician-education-route",
+      "careerId": "solar-technician",
+      "summary": "Routes include electrical/solar vocational training, ITI, or relevant technical diplomas and supervised practice.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "civil-engineer-education-route",
+      "careerId": "civil-engineer",
+      "summary": "Common route is a relevant B.E./B.Tech or diploma pathway, with role-specific qualifications and registration rules where applicable.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "mechanical-engineer-education-route",
+      "careerId": "mechanical-engineer",
+      "summary": "Common routes include B.E./B.Tech or diploma in mechanical or related engineering fields.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "graphic-designer-education-route",
+      "careerId": "graphic-designer",
+      "summary": "Routes include design degrees/diplomas or portfolio-led learning. Employers often assess practical work.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "video-editor-education-route",
+      "careerId": "video-editor",
+      "summary": "Routes include media/design courses or portfolio-led learning using practical projects.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    },
+    {
+      "qualificationId": "entrepreneur-education-route",
+      "careerId": "entrepreneur",
+      "summary": "No single degree is required. Business, technical, vocational, or domain experience can help; requirements depend on the business and regulations.",
+      "routes": [
+        {
+          "routeName": "Academic route",
+          "typicalSteps": [
+            "Complete the required school-level subjects or equivalent qualification",
+            "Check eligibility and admission rules for the chosen course",
+            "Complete a recognized relevant degree or qualification",
+            "Build practical experience through projects, placements, internships, or supervised practice"
+          ],
+          "note": "Route is illustrative. Requirements vary by institution, role, regulator, and year."
+        },
+        {
+          "routeName": "Alternative or vocational route",
+          "typicalSteps": [
+            "Check whether a recognized diploma, vocational qualification, apprenticeship, or portfolio-led route is accepted for the target role",
+            "Complete relevant training",
+            "Build evidence of practical competence",
+            "Verify employer and licensing requirements"
+          ],
+          "note": "Only applicable where the target occupation accepts this route; regulated professions may require specific qualifications."
+        }
+      ],
+      "officialVerificationRequired": true,
+      "status": "draft"
+    }
+  ],
+  "skills": [
+    {
+      "skillId": "software-developer-skill-1",
+      "careerId": "software-developer",
+      "name": "Programming fundamentals",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Variables, data types, conditions, loops, functions, and problem solving.",
+      "practiceProject": "Build a command-line expense tracker.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "software-developer-skill-2",
+      "careerId": "software-developer",
+      "name": "Data structures and algorithms",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Arrays, strings, maps, stacks, queues, sorting, searching, and complexity basics.",
+      "practiceProject": "Solve 25 beginner problems and explain the approach.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "software-developer-skill-3",
+      "careerId": "software-developer",
+      "name": "Web development and APIs",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "HTML, CSS, JavaScript, HTTP, REST APIs, and one backend framework.",
+      "practiceProject": "Build a responsive CRUD task manager using an API.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "software-developer-skill-4",
+      "careerId": "software-developer",
+      "name": "Git, testing, and deployment",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Git branches, code review, unit tests, environment variables, and deployment.",
+      "practiceProject": "Deploy a full-stack app with README and tests.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "data-analyst-skill-1",
+      "careerId": "data-analyst",
+      "name": "Spreadsheet analysis",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Clean data, formulas, pivot tables, lookups, and charts.",
+      "practiceProject": "Analyse a monthly sales spreadsheet and present 3 findings.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "data-analyst-skill-2",
+      "careerId": "data-analyst",
+      "name": "SQL querying",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "SELECT, JOIN, GROUP BY, subqueries, and window functions.",
+      "practiceProject": "Answer 10 business questions from a sample sales database.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "data-analyst-skill-3",
+      "careerId": "data-analyst",
+      "name": "Statistics and data cleaning",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Descriptive statistics, missing values, outliers, sampling, and correlation.",
+      "practiceProject": "Clean a public dataset and document assumptions.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "data-analyst-skill-4",
+      "careerId": "data-analyst",
+      "name": "Dashboard storytelling",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Power BI or Tableau, KPI design, filters, and concise insight writing.",
+      "practiceProject": "Create a dashboard with 5 KPIs and an executive summary.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "ai-ml-engineer-skill-1",
+      "careerId": "ai-ml-engineer",
+      "name": "Python for data work",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Python, functions, collections, NumPy, pandas, and notebooks.",
+      "practiceProject": "Explore and clean a tabular dataset.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "ai-ml-engineer-skill-2",
+      "careerId": "ai-ml-engineer",
+      "name": "Math and statistics foundations",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Linear algebra basics, probability, distributions, gradients, and evaluation metrics.",
+      "practiceProject": "Explain mean, variance, and precision/recall with examples.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "ai-ml-engineer-skill-3",
+      "careerId": "ai-ml-engineer",
+      "name": "Machine learning workflow",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Train/validation/test split, feature engineering, baselines, and model evaluation.",
+      "practiceProject": "Train and compare two models on a labelled dataset.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "ai-ml-engineer-skill-4",
+      "careerId": "ai-ml-engineer",
+      "name": "Model deployment and responsible AI",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Build an inference API, track experiments, check bias, and document limitations.",
+      "practiceProject": "Deploy a small model API with a model card.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "cybersecurity-analyst-skill-1",
+      "careerId": "cybersecurity-analyst",
+      "name": "Networking fundamentals",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "TCP/IP, DNS, HTTP, ports, routing, and common network protocols.",
+      "practiceProject": "Draw and explain a home-network traffic flow.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "cybersecurity-analyst-skill-2",
+      "careerId": "cybersecurity-analyst",
+      "name": "Linux and scripting",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Linux CLI, permissions, logs, Bash/Python automation.",
+      "practiceProject": "Write a script that summarises failed login events.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "cybersecurity-analyst-skill-3",
+      "careerId": "cybersecurity-analyst",
+      "name": "Security monitoring",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Authentication logs, SIEM concepts, alerts, indicators, and incident triage.",
+      "practiceProject": "Analyse a provided sample log and write a short incident report.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "cybersecurity-analyst-skill-4",
+      "careerId": "cybersecurity-analyst",
+      "name": "Security fundamentals and ethics",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Threat modelling, access control, encryption basics, safe lab practice, and responsible disclosure.",
+      "practiceProject": "Create a threat model for a demo web application.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "cloud-devops-engineer-skill-1",
+      "careerId": "cloud-devops-engineer",
+      "name": "Linux and networking",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Shell, processes, permissions, DNS, ports, SSH, and troubleshooting.",
+      "practiceProject": "Provision a Linux VM and document its setup.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "cloud-devops-engineer-skill-2",
+      "careerId": "cloud-devops-engineer",
+      "name": "Git and CI/CD",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Git workflows, automated tests, build pipelines, and release practices.",
+      "practiceProject": "Create a pipeline that tests a sample application.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "cloud-devops-engineer-skill-3",
+      "careerId": "cloud-devops-engineer",
+      "name": "Containers and orchestration",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Docker images, containers, volumes, networks, and Kubernetes concepts.",
+      "practiceProject": "Containerise a small API and run it locally.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "cloud-devops-engineer-skill-4",
+      "careerId": "cloud-devops-engineer",
+      "name": "Cloud, infrastructure, and monitoring",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Cloud IAM, compute/storage, infrastructure as code, logs, metrics, and alerts.",
+      "practiceProject": "Deploy a demo app with health checks and a cost note.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "ui-ux-designer-skill-1",
+      "careerId": "ui-ux-designer",
+      "name": "User research",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Interview planning, surveys, personas, accessibility needs, and research synthesis.",
+      "practiceProject": "Interview 3 users and summarise recurring pain points.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "ui-ux-designer-skill-2",
+      "careerId": "ui-ux-designer",
+      "name": "Information architecture",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "User flows, task analysis, navigation, and content hierarchy.",
+      "practiceProject": "Map the flow for a student career-search journey.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "ui-ux-designer-skill-3",
+      "careerId": "ui-ux-designer",
+      "name": "Wireframing and prototyping",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Low/high-fidelity wireframes, interactive prototypes, and responsive layouts.",
+      "practiceProject": "Prototype a mobile-first career guidance screen.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "ui-ux-designer-skill-4",
+      "careerId": "ui-ux-designer",
+      "name": "Usability and accessibility",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Usability tests, contrast, keyboard navigation, readable typography, and iteration.",
+      "practiceProject": "Test a prototype with 5 tasks and prioritise fixes.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "digital-marketing-specialist-skill-1",
+      "careerId": "digital-marketing-specialist",
+      "name": "Audience and content strategy",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Audience research, positioning, content pillars, and campaign objectives.",
+      "practiceProject": "Create a 2-week content calendar for a local business.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "digital-marketing-specialist-skill-2",
+      "careerId": "digital-marketing-specialist",
+      "name": "SEO fundamentals",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Search intent, keyword research, on-page SEO, metadata, and technical basics.",
+      "practiceProject": "Optimise a sample page for one relevant search query.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "digital-marketing-specialist-skill-3",
+      "careerId": "digital-marketing-specialist",
+      "name": "Social and paid campaigns",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Platform formats, creative testing, campaign setup, and budget basics.",
+      "practiceProject": "Design two ad variants with a clear hypothesis.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "digital-marketing-specialist-skill-4",
+      "careerId": "digital-marketing-specialist",
+      "name": "Analytics and reporting",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "UTM tags, conversion funnels, CTR, CPC, and evidence-based reporting.",
+      "practiceProject": "Build a campaign report with metrics and next steps.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "chartered-accountant-skill-1",
+      "careerId": "chartered-accountant",
+      "name": "Accounting principles",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Journal entries, ledgers, trial balance, financial statements, and reconciliation.",
+      "practiceProject": "Prepare basic statements from sample transactions.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "chartered-accountant-skill-2",
+      "careerId": "chartered-accountant",
+      "name": "Taxation fundamentals",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Understand direct/indirect tax concepts and verify current rules from official sources.",
+      "practiceProject": "Prepare a learning-only tax case using a published example.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "chartered-accountant-skill-3",
+      "careerId": "chartered-accountant",
+      "name": "Audit and internal controls",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Audit evidence, documentation, risk, sampling, and control testing concepts.",
+      "practiceProject": "Draft a mock internal-control checklist.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "chartered-accountant-skill-4",
+      "careerId": "chartered-accountant",
+      "name": "Financial analysis and ethics",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Ratio analysis, working capital, professional ethics, and confidentiality.",
+      "practiceProject": "Compare two sample companies using financial ratios.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "financial-analyst-skill-1",
+      "careerId": "financial-analyst",
+      "name": "Financial statements",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Read income statements, balance sheets, cash flows, and footnotes.",
+      "practiceProject": "Summarise a listed company’s annual report.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "financial-analyst-skill-2",
+      "careerId": "financial-analyst",
+      "name": "Excel and financial modelling",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Formulas, lookups, scenario analysis, forecasts, and model checks.",
+      "practiceProject": "Build a simple revenue and expense forecast.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "financial-analyst-skill-3",
+      "careerId": "financial-analyst",
+      "name": "Valuation fundamentals",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Time value of money, discounted cash flow, multiples, and assumptions.",
+      "practiceProject": "Create a learning-only DCF model with sensitivity analysis.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "financial-analyst-skill-4",
+      "careerId": "financial-analyst",
+      "name": "Research and communication",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Industry research, source evaluation, charts, and concise investment-style writing.",
+      "practiceProject": "Write a one-page company analysis with sources and risks.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "business-analyst-skill-1",
+      "careerId": "business-analyst",
+      "name": "Requirements elicitation",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Stakeholder interviews, observation, workshops, and clarifying questions.",
+      "practiceProject": "Write requirements for a college admission portal.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "business-analyst-skill-2",
+      "careerId": "business-analyst",
+      "name": "Process mapping",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "As-is/to-be flows, BPMN basics, bottlenecks, and exception paths.",
+      "practiceProject": "Map an application approval process.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "business-analyst-skill-3",
+      "careerId": "business-analyst",
+      "name": "Data and SQL basics",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Spreadsheets, basic SQL, metrics, and data validation.",
+      "practiceProject": "Create a small KPI report from sample records.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "business-analyst-skill-4",
+      "careerId": "business-analyst",
+      "name": "Specifications and acceptance criteria",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "User stories, functional requirements, acceptance tests, and traceability.",
+      "practiceProject": "Write 5 user stories with acceptance criteria.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "product-manager-skill-1",
+      "careerId": "product-manager",
+      "name": "Customer discovery",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "User interviews, problem framing, personas, and evidence vs assumptions.",
+      "practiceProject": "Interview users and write a problem statement.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "product-manager-skill-2",
+      "careerId": "product-manager",
+      "name": "Prioritisation and product strategy",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Outcomes, opportunity sizing, trade-offs, roadmaps, and prioritisation methods.",
+      "practiceProject": "Rank 10 feature requests with a clear rationale.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "product-manager-skill-3",
+      "careerId": "product-manager",
+      "name": "Metrics and experimentation",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "North-star metrics, funnels, hypotheses, A/B test concepts, and guardrails.",
+      "practiceProject": "Define success metrics for a new feature.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "product-manager-skill-4",
+      "careerId": "product-manager",
+      "name": "Cross-functional execution",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Product briefs, backlog refinement, stakeholder updates, and launch planning.",
+      "practiceProject": "Write a one-page PRD for a simple feature.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "doctor-skill-1",
+      "careerId": "doctor",
+      "name": "Biology and chemistry foundations",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Build school-level biology, chemistry, physics, and scientific reasoning for entrance preparation.",
+      "practiceProject": "Create a weekly topic and revision tracker.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "doctor-skill-2",
+      "careerId": "doctor",
+      "name": "Evidence-based learning",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Active recall, spaced repetition, diagram practice, and interpreting basic scientific evidence.",
+      "practiceProject": "Make flashcards and explain one body system.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "doctor-skill-3",
+      "careerId": "doctor",
+      "name": "Communication and empathy",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Listening, clear explanations, consent, confidentiality, and respectful interaction.",
+      "practiceProject": "Practise explaining a health concept in plain language.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "doctor-skill-4",
+      "careerId": "doctor",
+      "name": "Clinical professionalism",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Understand patient safety, teamwork, ethics, and the supervised nature of clinical training.",
+      "practiceProject": "Review a fictional case and list safety questions.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "nurse-skill-1",
+      "careerId": "nurse",
+      "name": "Human anatomy and physiology",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Understand major body systems and normal physiological functions.",
+      "practiceProject": "Create labelled revision diagrams of major systems.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "nurse-skill-2",
+      "careerId": "nurse",
+      "name": "Patient care fundamentals",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Learn supervised care principles, hygiene, observation, comfort, and patient dignity.",
+      "practiceProject": "Prepare a patient-care checklist for study use.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "nurse-skill-3",
+      "careerId": "nurse",
+      "name": "Communication and documentation",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Handover, accurate notes, teamwork, privacy, and communicating concerns.",
+      "practiceProject": "Practise a structured handover using a fictional case.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "nurse-skill-4",
+      "careerId": "nurse",
+      "name": "Safety and infection prevention",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Hand hygiene, PPE concepts, infection control, and escalation procedures.",
+      "practiceProject": "Create a safety checklist based on official training material.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "pharmacist-skill-1",
+      "careerId": "pharmacist",
+      "name": "Pharmaceutical science foundations",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Basic chemistry, human biology, dosage forms, and medicine terminology.",
+      "practiceProject": "Create a study glossary of common dosage forms.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "pharmacist-skill-2",
+      "careerId": "pharmacist",
+      "name": "Pharmacology and medicine safety",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Learn drug classes, mechanisms, interactions, adverse effects, and the need for professional verification.",
+      "practiceProject": "Build a study table for selected drug classes.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "pharmacist-skill-3",
+      "careerId": "pharmacist",
+      "name": "Dispensing and prescription literacy",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Understand prescription components, labelling, storage, and when to refer questions to a qualified professional.",
+      "practiceProject": "Review a fictional prescription for completeness, not treatment advice.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "pharmacist-skill-4",
+      "careerId": "pharmacist",
+      "name": "Regulation and patient communication",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Professional ethics, documentation, counselling principles, and current regulatory requirements.",
+      "practiceProject": "Write a plain-language medicine-safety information sheet.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "psychologist-skill-1",
+      "careerId": "psychologist",
+      "name": "Psychology foundations",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Core concepts in cognition, development, learning, social behaviour, and research methods.",
+      "practiceProject": "Summarise one introductory psychology study.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "psychologist-skill-2",
+      "careerId": "psychologist",
+      "name": "Research literacy and statistics",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Study design, sampling, reliability, validity, correlation, and ethics.",
+      "practiceProject": "Critically review a published study’s method.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "psychologist-skill-3",
+      "careerId": "psychologist",
+      "name": "Listening and communication",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Empathy, non-judgmental listening, boundaries, and clear communication.",
+      "practiceProject": "Practise reflective listening with a role-play scenario.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "psychologist-skill-4",
+      "careerId": "psychologist",
+      "name": "Ethics and professional pathways",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Confidentiality, consent, referral boundaries, and verifying required qualifications for the chosen psychology role.",
+      "practiceProject": "Compare official qualification routes for two psychology roles.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "lawyer-skill-1",
+      "careerId": "lawyer",
+      "name": "Legal research",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Find legislation, judgments, rules, and authoritative sources; track jurisdiction and date.",
+      "practiceProject": "Prepare a source list for a simple legal topic.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "lawyer-skill-2",
+      "careerId": "lawyer",
+      "name": "Reading and interpreting law",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Identify facts, issues, rules, reasoning, and holdings in a judgment.",
+      "practiceProject": "Write a case brief for a publicly available judgment.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "lawyer-skill-3",
+      "careerId": "lawyer",
+      "name": "Legal writing and argument",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Structure clear arguments, cite sources, distinguish facts from opinions.",
+      "practiceProject": "Draft a short issue-rule-application-conclusion note.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "lawyer-skill-4",
+      "careerId": "lawyer",
+      "name": "Advocacy and professional ethics",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Oral presentation, client confidentiality, conflicts, and current bar enrolment requirements.",
+      "practiceProject": "Deliver a 3-minute argument on a fictional case.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "teacher-skill-1",
+      "careerId": "teacher",
+      "name": "Subject knowledge",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Build accurate command of the chosen school subject and curriculum.",
+      "practiceProject": "Create a concept map for one syllabus topic.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "teacher-skill-2",
+      "careerId": "teacher",
+      "name": "Lesson planning",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Learning objectives, lesson sequence, examples, formative checks, and inclusive activities.",
+      "practiceProject": "Design a 30-minute lesson plan.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "teacher-skill-3",
+      "careerId": "teacher",
+      "name": "Classroom communication",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Clear explanations, questioning, classroom routines, and constructive feedback.",
+      "practiceProject": "Prepare 5 questions at different difficulty levels.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "teacher-skill-4",
+      "careerId": "teacher",
+      "name": "Assessment and inclusion",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Rubrics, learner differences, accessibility, and reflective improvement.",
+      "practiceProject": "Create a simple rubric and an alternate activity.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "civil-services-officer-skill-1",
+      "careerId": "civil-services-officer",
+      "name": "Indian polity and governance",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Constitution, institutions, public policy, and governance basics using reliable sources.",
+      "practiceProject": "Make a one-page note on a constitutional institution.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "civil-services-officer-skill-2",
+      "careerId": "civil-services-officer",
+      "name": "History, geography, and economy",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Build integrated foundational knowledge and revise using maps, timelines, and data.",
+      "practiceProject": "Create a weekly revision sheet for one topic.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "civil-services-officer-skill-3",
+      "careerId": "civil-services-officer",
+      "name": "Current affairs and source evaluation",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Summarise developments, distinguish facts from opinion, and connect them to syllabus themes.",
+      "practiceProject": "Write a 200-word issue brief with sources.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "civil-services-officer-skill-4",
+      "careerId": "civil-services-officer",
+      "name": "Answer writing and aptitude",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Structured answers, reasoning, comprehension, time management, and mock-test review.",
+      "practiceProject": "Write and self-review one timed practice answer.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "police-officer-skill-1",
+      "careerId": "police-officer",
+      "name": "General knowledge and reasoning",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Practise current affairs, logical reasoning, quantitative aptitude, and comprehension.",
+      "practiceProject": "Complete a timed practice set and review errors.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "police-officer-skill-2",
+      "careerId": "police-officer",
+      "name": "Fitness and conditioning",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Build safe, progressive cardiovascular fitness, strength, mobility, and recovery.",
+      "practiceProject": "Keep a gradual weekly fitness log suited to your current ability.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "police-officer-skill-3",
+      "careerId": "police-officer",
+      "name": "Communication and conflict de-escalation",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Calm communication, listening, situational awareness, and respectful public interaction.",
+      "practiceProject": "Role-play a nonviolent conflict-resolution scenario.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "police-officer-skill-4",
+      "careerId": "police-officer",
+      "name": "Law, procedure, and ethics",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Learn the applicable recruitment syllabus, legal basics, rights, documentation, and accountability.",
+      "practiceProject": "Summarise a public-service ethics scenario.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "electrician-skill-1",
+      "careerId": "electrician",
+      "name": "Electrical theory and safety",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Voltage, current, resistance, power, circuits, isolation, PPE, and hazard awareness.",
+      "practiceProject": "Solve basic circuit calculations and identify hazards in diagrams.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "electrician-skill-2",
+      "careerId": "electrician",
+      "name": "Wiring and circuit diagrams",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Read symbols, wiring diagrams, load concepts, earthing, and protective devices.",
+      "practiceProject": "Draw a simple lighting-circuit diagram for study.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "electrician-skill-3",
+      "careerId": "electrician",
+      "name": "Tools and testing concepts",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Identify tools and learn the purpose and safe handling principles of test instruments under supervision.",
+      "practiceProject": "Prepare a tool-identification and inspection checklist.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "electrician-skill-4",
+      "careerId": "electrician",
+      "name": "Installation, maintenance, and troubleshooting",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Follow applicable standards, inspect faults methodically, and practise only in supervised training.",
+      "practiceProject": "Create a fault-finding flowchart using a simulated circuit.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "solar-technician-skill-1",
+      "careerId": "solar-technician",
+      "name": "Solar PV fundamentals",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Sunlight-to-electricity basics, PV modules, inverters, and system components.",
+      "practiceProject": "Draw a labelled grid-connected solar system.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "solar-technician-skill-2",
+      "careerId": "solar-technician",
+      "name": "Electrical safety and DC basics",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Polarity, DC hazards, isolation, PPE, and safe work practices under qualified supervision.",
+      "practiceProject": "Identify safety checkpoints on a training diagram.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "solar-technician-skill-3",
+      "careerId": "solar-technician",
+      "name": "System sizing and site assessment",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Understand energy use, orientation, shading, basic sizing, and site constraints.",
+      "practiceProject": "Estimate a sample household’s daily energy needs.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "solar-technician-skill-4",
+      "careerId": "solar-technician",
+      "name": "Installation, testing, and maintenance",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Learn mounting, cable routing, inspection, performance monitoring, and maintenance documentation.",
+      "practiceProject": "Create a preventive-maintenance checklist from training guidance.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "civil-engineer-skill-1",
+      "careerId": "civil-engineer",
+      "name": "Engineering mathematics and mechanics",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Algebra, trigonometry, statics, forces, and material behaviour.",
+      "practiceProject": "Solve basic force and equilibrium problems.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "civil-engineer-skill-2",
+      "careerId": "civil-engineer",
+      "name": "Engineering drawing and CAD",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Read plans, dimensions, sections, scales, and use CAD for simple drawings.",
+      "practiceProject": "Draw a basic floor plan with dimensions.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "civil-engineer-skill-3",
+      "careerId": "civil-engineer",
+      "name": "Construction materials and surveying",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Understand concrete/steel basics, measurements, levelling, and site records.",
+      "practiceProject": "Prepare a sample quantity and measurement sheet.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "civil-engineer-skill-4",
+      "careerId": "civil-engineer",
+      "name": "Structural and project fundamentals",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Learn load concepts, codes awareness, estimation, scheduling, and safety under qualified guidance.",
+      "practiceProject": "Create a small project schedule and risk checklist.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "mechanical-engineer-skill-1",
+      "careerId": "mechanical-engineer",
+      "name": "Engineering mathematics and mechanics",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Mathematics, statics, dynamics, and strength-of-materials fundamentals.",
+      "practiceProject": "Solve a basic force and motion problem set.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "mechanical-engineer-skill-2",
+      "careerId": "mechanical-engineer",
+      "name": "CAD and technical drawing",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Orthographic views, dimensions, tolerances, and 3D modelling basics.",
+      "practiceProject": "Model a simple mechanical part in CAD.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "mechanical-engineer-skill-3",
+      "careerId": "mechanical-engineer",
+      "name": "Manufacturing and materials",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Material properties, machining, manufacturing processes, and quality basics.",
+      "practiceProject": "Compare two materials for a fictional component.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "mechanical-engineer-skill-4",
+      "careerId": "mechanical-engineer",
+      "name": "Thermal systems and troubleshooting",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Thermodynamics, fluid/heat concepts, measurement, and systematic fault analysis.",
+      "practiceProject": "Create a troubleshooting tree for a simple mechanism.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "graphic-designer-skill-1",
+      "careerId": "graphic-designer",
+      "name": "Visual design fundamentals",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Composition, hierarchy, typography, colour, spacing, and visual balance.",
+      "practiceProject": "Design a poster using a clear hierarchy.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "graphic-designer-skill-2",
+      "careerId": "graphic-designer",
+      "name": "Design software workflow",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Use vector and raster tools, layers, grids, export settings, and reusable assets.",
+      "practiceProject": "Create a logo set and social-media export pack.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "graphic-designer-skill-3",
+      "careerId": "graphic-designer",
+      "name": "Branding and layout systems",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Brand consistency, audience fit, layout systems, and basic print/digital constraints.",
+      "practiceProject": "Create a mini brand kit with colours and type styles.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "graphic-designer-skill-4",
+      "careerId": "graphic-designer",
+      "name": "Portfolio and client communication",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Brief interpretation, feedback rounds, file handoff, licensing awareness, and case-study presentation.",
+      "practiceProject": "Present a before/after case study with design rationale.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "video-editor-skill-1",
+      "careerId": "video-editor",
+      "name": "Editing fundamentals",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Timeline editing, pacing, continuity, story structure, and selecting usable takes.",
+      "practiceProject": "Edit a 30-second story from provided clips.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "video-editor-skill-2",
+      "careerId": "video-editor",
+      "name": "Audio and colour basics",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Dialogue cleanup, levels, music balance, colour correction, and consistent exports.",
+      "practiceProject": "Polish a short clip with clean audio and corrected colour.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "video-editor-skill-3",
+      "careerId": "video-editor",
+      "name": "Motion graphics and titles",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Keyframes, easing, typography animation, compositing basics, and readable titles.",
+      "practiceProject": "Create a 5-second animated title sequence.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "video-editor-skill-4",
+      "careerId": "video-editor",
+      "name": "Delivery and client workflow",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Aspect ratios, codecs, captions, versioning, feedback, and organised project files.",
+      "practiceProject": "Export the same edit for vertical and widescreen formats.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "entrepreneur-skill-1",
+      "careerId": "entrepreneur",
+      "name": "Customer discovery and problem validation",
+      "sequence": 1,
+      "level": "Beginner",
+      "whyItMatters": "Identify a target segment, interview potential customers, and test assumptions before building.",
+      "practiceProject": "Interview 5 potential customers and summarise evidence.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "entrepreneur-skill-2",
+      "careerId": "entrepreneur",
+      "name": "Business model and pricing",
+      "sequence": 2,
+      "level": "Beginner",
+      "whyItMatters": "Value proposition, revenue/cost structure, pricing hypotheses, and unit economics basics.",
+      "practiceProject": "Create a one-page business model and simple cost sheet.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "entrepreneur-skill-3",
+      "careerId": "entrepreneur",
+      "name": "Marketing and sales",
+      "sequence": 3,
+      "level": "Intermediate",
+      "whyItMatters": "Positioning, outreach, customer conversations, conversion tracking, and retention basics.",
+      "practiceProject": "Run a small, low-cost validation campaign.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    },
+    {
+      "skillId": "entrepreneur-skill-4",
+      "careerId": "entrepreneur",
+      "name": "Operations and financial discipline",
+      "sequence": 4,
+      "level": "Intermediate",
+      "whyItMatters": "Cash flow, record keeping, customer support, legal compliance awareness, and risk management.",
+      "practiceProject": "Build a 3-month cash-flow forecast with assumptions.",
+      "languages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "status": "draft",
+      "reviewRequired": true
+    }
+  ],
+  "roadmapSteps": [
+    {
+      "stepId": "software-developer-step-1",
+      "careerId": "software-developer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "software-developer-step-2",
+      "careerId": "software-developer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "software-developer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "software-developer-step-3",
+      "careerId": "software-developer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "software-developer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "software-developer-step-4",
+      "careerId": "software-developer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "software-developer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "software-developer-step-5",
+      "careerId": "software-developer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "software-developer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "software-developer-step-6",
+      "careerId": "software-developer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "software-developer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "data-analyst-step-1",
+      "careerId": "data-analyst",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "data-analyst-step-2",
+      "careerId": "data-analyst",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "data-analyst-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "data-analyst-step-3",
+      "careerId": "data-analyst",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "data-analyst-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "data-analyst-step-4",
+      "careerId": "data-analyst",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "data-analyst-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "data-analyst-step-5",
+      "careerId": "data-analyst",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "data-analyst-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "data-analyst-step-6",
+      "careerId": "data-analyst",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "data-analyst-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ai-ml-engineer-step-1",
+      "careerId": "ai-ml-engineer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "ai-ml-engineer-step-2",
+      "careerId": "ai-ml-engineer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "ai-ml-engineer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ai-ml-engineer-step-3",
+      "careerId": "ai-ml-engineer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "ai-ml-engineer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ai-ml-engineer-step-4",
+      "careerId": "ai-ml-engineer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "ai-ml-engineer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ai-ml-engineer-step-5",
+      "careerId": "ai-ml-engineer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "ai-ml-engineer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ai-ml-engineer-step-6",
+      "careerId": "ai-ml-engineer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "ai-ml-engineer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cybersecurity-analyst-step-1",
+      "careerId": "cybersecurity-analyst",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "cybersecurity-analyst-step-2",
+      "careerId": "cybersecurity-analyst",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "cybersecurity-analyst-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cybersecurity-analyst-step-3",
+      "careerId": "cybersecurity-analyst",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "cybersecurity-analyst-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cybersecurity-analyst-step-4",
+      "careerId": "cybersecurity-analyst",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "cybersecurity-analyst-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cybersecurity-analyst-step-5",
+      "careerId": "cybersecurity-analyst",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "cybersecurity-analyst-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cybersecurity-analyst-step-6",
+      "careerId": "cybersecurity-analyst",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "cybersecurity-analyst-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cloud-devops-engineer-step-1",
+      "careerId": "cloud-devops-engineer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "cloud-devops-engineer-step-2",
+      "careerId": "cloud-devops-engineer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "cloud-devops-engineer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cloud-devops-engineer-step-3",
+      "careerId": "cloud-devops-engineer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "cloud-devops-engineer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cloud-devops-engineer-step-4",
+      "careerId": "cloud-devops-engineer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "cloud-devops-engineer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cloud-devops-engineer-step-5",
+      "careerId": "cloud-devops-engineer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "cloud-devops-engineer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "cloud-devops-engineer-step-6",
+      "careerId": "cloud-devops-engineer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "cloud-devops-engineer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ui-ux-designer-step-1",
+      "careerId": "ui-ux-designer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "ui-ux-designer-step-2",
+      "careerId": "ui-ux-designer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "ui-ux-designer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ui-ux-designer-step-3",
+      "careerId": "ui-ux-designer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "ui-ux-designer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ui-ux-designer-step-4",
+      "careerId": "ui-ux-designer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "ui-ux-designer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ui-ux-designer-step-5",
+      "careerId": "ui-ux-designer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "ui-ux-designer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "ui-ux-designer-step-6",
+      "careerId": "ui-ux-designer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "ui-ux-designer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "digital-marketing-specialist-step-1",
+      "careerId": "digital-marketing-specialist",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "digital-marketing-specialist-step-2",
+      "careerId": "digital-marketing-specialist",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "digital-marketing-specialist-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "digital-marketing-specialist-step-3",
+      "careerId": "digital-marketing-specialist",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "digital-marketing-specialist-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "digital-marketing-specialist-step-4",
+      "careerId": "digital-marketing-specialist",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "digital-marketing-specialist-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "digital-marketing-specialist-step-5",
+      "careerId": "digital-marketing-specialist",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "digital-marketing-specialist-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "digital-marketing-specialist-step-6",
+      "careerId": "digital-marketing-specialist",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "digital-marketing-specialist-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "chartered-accountant-step-1",
+      "careerId": "chartered-accountant",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "chartered-accountant-step-2",
+      "careerId": "chartered-accountant",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "chartered-accountant-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "chartered-accountant-step-3",
+      "careerId": "chartered-accountant",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "chartered-accountant-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "chartered-accountant-step-4",
+      "careerId": "chartered-accountant",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "chartered-accountant-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "chartered-accountant-step-5",
+      "careerId": "chartered-accountant",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "chartered-accountant-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "chartered-accountant-step-6",
+      "careerId": "chartered-accountant",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "chartered-accountant-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "financial-analyst-step-1",
+      "careerId": "financial-analyst",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "financial-analyst-step-2",
+      "careerId": "financial-analyst",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "financial-analyst-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "financial-analyst-step-3",
+      "careerId": "financial-analyst",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "financial-analyst-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "financial-analyst-step-4",
+      "careerId": "financial-analyst",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "financial-analyst-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "financial-analyst-step-5",
+      "careerId": "financial-analyst",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "financial-analyst-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "financial-analyst-step-6",
+      "careerId": "financial-analyst",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "financial-analyst-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "business-analyst-step-1",
+      "careerId": "business-analyst",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "business-analyst-step-2",
+      "careerId": "business-analyst",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "business-analyst-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "business-analyst-step-3",
+      "careerId": "business-analyst",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "business-analyst-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "business-analyst-step-4",
+      "careerId": "business-analyst",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "business-analyst-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "business-analyst-step-5",
+      "careerId": "business-analyst",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "business-analyst-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "business-analyst-step-6",
+      "careerId": "business-analyst",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "business-analyst-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "product-manager-step-1",
+      "careerId": "product-manager",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "product-manager-step-2",
+      "careerId": "product-manager",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "product-manager-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "product-manager-step-3",
+      "careerId": "product-manager",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "product-manager-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "product-manager-step-4",
+      "careerId": "product-manager",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "product-manager-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "product-manager-step-5",
+      "careerId": "product-manager",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "product-manager-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "product-manager-step-6",
+      "careerId": "product-manager",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "product-manager-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "doctor-step-1",
+      "careerId": "doctor",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "doctor-step-2",
+      "careerId": "doctor",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "doctor-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "doctor-step-3",
+      "careerId": "doctor",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "doctor-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "doctor-step-4",
+      "careerId": "doctor",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "doctor-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "doctor-step-5",
+      "careerId": "doctor",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "doctor-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "doctor-step-6",
+      "careerId": "doctor",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "doctor-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "nurse-step-1",
+      "careerId": "nurse",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "nurse-step-2",
+      "careerId": "nurse",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "nurse-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "nurse-step-3",
+      "careerId": "nurse",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "nurse-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "nurse-step-4",
+      "careerId": "nurse",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "nurse-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "nurse-step-5",
+      "careerId": "nurse",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "nurse-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "nurse-step-6",
+      "careerId": "nurse",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "nurse-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "pharmacist-step-1",
+      "careerId": "pharmacist",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "pharmacist-step-2",
+      "careerId": "pharmacist",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "pharmacist-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "pharmacist-step-3",
+      "careerId": "pharmacist",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "pharmacist-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "pharmacist-step-4",
+      "careerId": "pharmacist",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "pharmacist-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "pharmacist-step-5",
+      "careerId": "pharmacist",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "pharmacist-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "pharmacist-step-6",
+      "careerId": "pharmacist",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "pharmacist-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "psychologist-step-1",
+      "careerId": "psychologist",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "psychologist-step-2",
+      "careerId": "psychologist",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "psychologist-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "psychologist-step-3",
+      "careerId": "psychologist",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "psychologist-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "psychologist-step-4",
+      "careerId": "psychologist",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "psychologist-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "psychologist-step-5",
+      "careerId": "psychologist",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "psychologist-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "psychologist-step-6",
+      "careerId": "psychologist",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "psychologist-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "lawyer-step-1",
+      "careerId": "lawyer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "lawyer-step-2",
+      "careerId": "lawyer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "lawyer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "lawyer-step-3",
+      "careerId": "lawyer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "lawyer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "lawyer-step-4",
+      "careerId": "lawyer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "lawyer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "lawyer-step-5",
+      "careerId": "lawyer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "lawyer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "lawyer-step-6",
+      "careerId": "lawyer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "lawyer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "teacher-step-1",
+      "careerId": "teacher",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "teacher-step-2",
+      "careerId": "teacher",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "teacher-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "teacher-step-3",
+      "careerId": "teacher",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "teacher-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "teacher-step-4",
+      "careerId": "teacher",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "teacher-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "teacher-step-5",
+      "careerId": "teacher",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "teacher-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "teacher-step-6",
+      "careerId": "teacher",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "teacher-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-services-officer-step-1",
+      "careerId": "civil-services-officer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-services-officer-step-2",
+      "careerId": "civil-services-officer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "civil-services-officer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-services-officer-step-3",
+      "careerId": "civil-services-officer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "civil-services-officer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-services-officer-step-4",
+      "careerId": "civil-services-officer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "civil-services-officer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-services-officer-step-5",
+      "careerId": "civil-services-officer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "civil-services-officer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-services-officer-step-6",
+      "careerId": "civil-services-officer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "civil-services-officer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "police-officer-step-1",
+      "careerId": "police-officer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "police-officer-step-2",
+      "careerId": "police-officer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "police-officer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "police-officer-step-3",
+      "careerId": "police-officer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "police-officer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "police-officer-step-4",
+      "careerId": "police-officer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "police-officer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "police-officer-step-5",
+      "careerId": "police-officer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "police-officer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "police-officer-step-6",
+      "careerId": "police-officer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "police-officer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "electrician-step-1",
+      "careerId": "electrician",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "electrician-step-2",
+      "careerId": "electrician",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "electrician-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "electrician-step-3",
+      "careerId": "electrician",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "electrician-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "electrician-step-4",
+      "careerId": "electrician",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "electrician-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "electrician-step-5",
+      "careerId": "electrician",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "electrician-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "electrician-step-6",
+      "careerId": "electrician",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "electrician-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "solar-technician-step-1",
+      "careerId": "solar-technician",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "solar-technician-step-2",
+      "careerId": "solar-technician",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "solar-technician-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "solar-technician-step-3",
+      "careerId": "solar-technician",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "solar-technician-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "solar-technician-step-4",
+      "careerId": "solar-technician",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "solar-technician-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "solar-technician-step-5",
+      "careerId": "solar-technician",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "solar-technician-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "solar-technician-step-6",
+      "careerId": "solar-technician",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "solar-technician-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-engineer-step-1",
+      "careerId": "civil-engineer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-engineer-step-2",
+      "careerId": "civil-engineer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "civil-engineer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-engineer-step-3",
+      "careerId": "civil-engineer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "civil-engineer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-engineer-step-4",
+      "careerId": "civil-engineer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "civil-engineer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-engineer-step-5",
+      "careerId": "civil-engineer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "civil-engineer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "civil-engineer-step-6",
+      "careerId": "civil-engineer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "civil-engineer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "mechanical-engineer-step-1",
+      "careerId": "mechanical-engineer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "mechanical-engineer-step-2",
+      "careerId": "mechanical-engineer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "mechanical-engineer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "mechanical-engineer-step-3",
+      "careerId": "mechanical-engineer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "mechanical-engineer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "mechanical-engineer-step-4",
+      "careerId": "mechanical-engineer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "mechanical-engineer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "mechanical-engineer-step-5",
+      "careerId": "mechanical-engineer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "mechanical-engineer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "mechanical-engineer-step-6",
+      "careerId": "mechanical-engineer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "mechanical-engineer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "graphic-designer-step-1",
+      "careerId": "graphic-designer",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "graphic-designer-step-2",
+      "careerId": "graphic-designer",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "graphic-designer-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "graphic-designer-step-3",
+      "careerId": "graphic-designer",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "graphic-designer-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "graphic-designer-step-4",
+      "careerId": "graphic-designer",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "graphic-designer-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "graphic-designer-step-5",
+      "careerId": "graphic-designer",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "graphic-designer-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "graphic-designer-step-6",
+      "careerId": "graphic-designer",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "graphic-designer-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "video-editor-step-1",
+      "careerId": "video-editor",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "video-editor-step-2",
+      "careerId": "video-editor",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "video-editor-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "video-editor-step-3",
+      "careerId": "video-editor",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "video-editor-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "video-editor-step-4",
+      "careerId": "video-editor",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "video-editor-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "video-editor-step-5",
+      "careerId": "video-editor",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "video-editor-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "video-editor-step-6",
+      "careerId": "video-editor",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "video-editor-step-5"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "entrepreneur-step-1",
+      "careerId": "entrepreneur",
+      "sequence": 1,
+      "title": "Explore the career",
+      "description": "Understand day-to-day work, typical settings, and entry-level roles.",
+      "prerequisiteStepIds": [],
+      "status": "draft"
+    },
+    {
+      "stepId": "entrepreneur-step-2",
+      "careerId": "entrepreneur",
+      "sequence": 2,
+      "title": "Check eligibility",
+      "description": "Verify current school subjects, qualification rules, entrance exams, and official notices.",
+      "prerequisiteStepIds": [
+        "entrepreneur-step-1"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "entrepreneur-step-3",
+      "careerId": "entrepreneur",
+      "sequence": 3,
+      "title": "Choose a pathway",
+      "description": "Compare recognized degree, diploma, vocational, and other applicable routes by eligibility, cost, and duration.",
+      "prerequisiteStepIds": [
+        "entrepreneur-step-2"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "entrepreneur-step-4",
+      "careerId": "entrepreneur",
+      "sequence": 4,
+      "title": "Build foundational skills",
+      "description": "Follow the listed skills in order and complete the practice activities.",
+      "prerequisiteStepIds": [
+        "entrepreneur-step-3"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "entrepreneur-step-5",
+      "careerId": "entrepreneur",
+      "sequence": 5,
+      "title": "Create evidence of ability",
+      "description": "Complete relevant projects, supervised practice, placements, or portfolio work.",
+      "prerequisiteStepIds": [
+        "entrepreneur-step-4"
+      ],
+      "status": "draft"
+    },
+    {
+      "stepId": "entrepreneur-step-6",
+      "careerId": "entrepreneur",
+      "sequence": 6,
+      "title": "Prepare for opportunities",
+      "description": "Review role requirements, prepare applications, and check official recruitment or licensing rules.",
+      "prerequisiteStepIds": [
+        "entrepreneur-step-5"
+      ],
+      "status": "draft"
+    }
+  ],
+  "resources": [
+    {
+      "resourceId": "software-developer-video-search",
+      "careerId": "software-developer",
+      "skillId": "software-developer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Software Developer",
+      "url": "https://www.youtube.com/results?search_query=beginner%20programming%20project%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "data-analyst-video-search",
+      "careerId": "data-analyst",
+      "skillId": "data-analyst-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Data Analyst",
+      "url": "https://www.youtube.com/results?search_query=Excel%20SQL%20data%20analysis%20beginner%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "ai-ml-engineer-video-search",
+      "careerId": "ai-ml-engineer",
+      "skillId": "ai-ml-engineer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: AI/ML Engineer",
+      "url": "https://www.youtube.com/results?search_query=Python%20machine%20learning%20beginner%20project%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "cybersecurity-analyst-video-search",
+      "careerId": "cybersecurity-analyst",
+      "skillId": "cybersecurity-analyst-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Cybersecurity Analyst",
+      "url": "https://www.youtube.com/results?search_query=networking%20Linux%20cybersecurity%20beginner%20lab",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "cloud-devops-engineer-video-search",
+      "careerId": "cloud-devops-engineer",
+      "skillId": "cloud-devops-engineer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Cloud / DevOps Engineer",
+      "url": "https://www.youtube.com/results?search_query=Linux%20Docker%20CI%20CD%20beginner%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "ui-ux-designer-video-search",
+      "careerId": "ui-ux-designer",
+      "skillId": "ui-ux-designer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: UI/UX Designer",
+      "url": "https://www.youtube.com/results?search_query=UI%20UX%20design%20case%20study%20Figma%20beginner%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "digital-marketing-specialist-video-search",
+      "careerId": "digital-marketing-specialist",
+      "skillId": "digital-marketing-specialist-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Digital Marketing Specialist",
+      "url": "https://www.youtube.com/results?search_query=SEO%20digital%20marketing%20analytics%20beginner%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "chartered-accountant-video-search",
+      "careerId": "chartered-accountant",
+      "skillId": "chartered-accountant-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Chartered Accountant (CA)",
+      "url": "https://www.youtube.com/results?search_query=ICAI%20CA%20course%20official%20guidance",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "financial-analyst-video-search",
+      "careerId": "financial-analyst",
+      "skillId": "financial-analyst-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Financial Analyst",
+      "url": "https://www.youtube.com/results?search_query=Excel%20financial%20modelling%20beginner%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "business-analyst-video-search",
+      "careerId": "business-analyst",
+      "skillId": "business-analyst-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Business Analyst",
+      "url": "https://www.youtube.com/results?search_query=business%20analysis%20requirements%20gathering%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "product-manager-video-search",
+      "careerId": "product-manager",
+      "skillId": "product-manager-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Product Manager",
+      "url": "https://www.youtube.com/results?search_query=product%20management%20user%20research%20metrics%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "doctor-video-search",
+      "careerId": "doctor",
+      "skillId": "doctor-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Doctor (MBBS route)",
+      "url": "https://www.youtube.com/results?search_query=NEET%20UG%20official%20NTA%20information",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "nurse-video-search",
+      "careerId": "nurse",
+      "skillId": "nurse-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Registered Nurse",
+      "url": "https://www.youtube.com/results?search_query=nursing%20fundamentals%20educational%20lecture",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "pharmacist-video-search",
+      "careerId": "pharmacist",
+      "skillId": "pharmacist-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Pharmacist",
+      "url": "https://www.youtube.com/results?search_query=pharmacy%20fundamentals%20educational%20lecture",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "psychologist-video-search",
+      "careerId": "psychologist",
+      "skillId": "psychologist-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Psychologist",
+      "url": "https://www.youtube.com/results?search_query=psychology%20research%20methods%20introduction",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "lawyer-video-search",
+      "careerId": "lawyer",
+      "skillId": "lawyer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Lawyer / Advocate",
+      "url": "https://www.youtube.com/results?search_query=Indian%20law%20legal%20research%20introduction",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "teacher-video-search",
+      "careerId": "teacher",
+      "skillId": "teacher-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: School Teacher",
+      "url": "https://www.youtube.com/results?search_query=pedagogy%20lesson%20planning%20teacher%20training",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "civil-services-officer-video-search",
+      "careerId": "civil-services-officer",
+      "skillId": "civil-services-officer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Civil Services Officer",
+      "url": "https://www.youtube.com/results?search_query=UPSC%20Civil%20Services%20official%20syllabus%20preparation",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "police-officer-video-search",
+      "careerId": "police-officer",
+      "skillId": "police-officer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Police Officer",
+      "url": "https://www.youtube.com/results?search_query=official%20state%20police%20recruitment%20preparation%20physical%20standards",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "electrician-video-search",
+      "careerId": "electrician",
+      "skillId": "electrician-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Electrician / Electrical Technician",
+      "url": "https://www.youtube.com/results?search_query=ITI%20electrician%20electrical%20safety%20fundamentals",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "solar-technician-video-search",
+      "careerId": "solar-technician",
+      "skillId": "solar-technician-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Solar PV Technician",
+      "url": "https://www.youtube.com/results?search_query=solar%20PV%20installation%20safety%20training",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "civil-engineer-video-search",
+      "careerId": "civil-engineer",
+      "skillId": "civil-engineer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Civil Engineer",
+      "url": "https://www.youtube.com/results?search_query=civil%20engineering%20fundamentals%20AutoCAD%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "mechanical-engineer-video-search",
+      "careerId": "mechanical-engineer",
+      "skillId": "mechanical-engineer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Mechanical Engineer",
+      "url": "https://www.youtube.com/results?search_query=mechanical%20engineering%20CAD%20fundamentals%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "graphic-designer-video-search",
+      "careerId": "graphic-designer",
+      "skillId": "graphic-designer-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Graphic Designer",
+      "url": "https://www.youtube.com/results?search_query=graphic%20design%20typography%20layout%20beginner%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "video-editor-video-search",
+      "careerId": "video-editor",
+      "skillId": "video-editor-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Video Editor / Motion Designer",
+      "url": "https://www.youtube.com/results?search_query=video%20editing%20storytelling%20beginner%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    },
+    {
+      "resourceId": "entrepreneur-video-search",
+      "careerId": "entrepreneur",
+      "skillId": "entrepreneur-skill-1",
+      "type": "youtube_search",
+      "title": "Curated video search: Entrepreneur / Small Business Founder",
+      "url": "https://www.youtube.com/results?search_query=customer%20discovery%20business%20model%20beginner%20tutorial",
+      "language": "en",
+      "resourceNote": "This is a search-results URL, not a reviewed individual video. Replace with a checked video or playlist before publishing.",
+      "reviewStatus": "needs_review",
+      "status": "draft"
+    }
+  ]
+}

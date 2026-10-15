@@ -93,22 +93,13 @@ git clone <your-repository-url>
 cd pathsaarthi-gujarat
 ```
 
-### 2. Install frontend dependencies
+### 2. Install ependencies
 
 From the project root:
 
 ```bash
-cd client
 npm install
-```
-
-### 3. Install backend dependencies
-
-Open a **second terminal** at the project root:
-
-```bash
-cd server
-npm install
+npm run dev
 ```
 
 ## Environment Configuration
